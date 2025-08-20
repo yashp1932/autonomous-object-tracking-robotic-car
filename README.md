@@ -7,3 +7,5 @@ A dual-mode robotic car built on an **Raspberry Pi 4** that can autonomously tra
 **Tech Stack:** C++ · OpenCV · pigpio · GStreamer · Linux Joystick API · Raspberry Pi 4 · TB6612FNG Motor Driver · Servo + DC Motors  
 
 **Key Features:** Autonomous HSV-based object tracking · manual override via PS4 controller · low-latency camera + control loop · custom mechanical design  
+
+## 🔍 **Explore** 
