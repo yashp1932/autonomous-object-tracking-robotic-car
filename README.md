@@ -20,7 +20,7 @@ A dual-mode robotic car built on an **Raspberry Pi 4** that can autonomously tra
 
 ## 💡 **Background**  
 
-This project was driven by my interest in the intersection of cars and robotics, exploring how embedded systems and computer vision can enable autonomous vehicle behavior.
+I’ve always been fascinated by cars and robotics, so I built this project to bring the two together. It gave me a hands-on way to explore how embedded systems and computer vision work together to create real autonomous vehicle behaviors
 
 ---
 
