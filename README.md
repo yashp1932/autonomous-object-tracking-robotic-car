@@ -14,6 +14,6 @@ A dual-mode robotic car built on an **Raspberry Pi 4** that can autonomously tra
 🎥 [Educational Demo Video](https://youtu.be/008SZhVjsog)         
 🎥 [Fun Demo Video](https://youtube.com/shorts/qCwE8ejM1Z4?feature=share)       
 
-## 🌱 **Background**  
+## 💡 **Background**  
 
 This project was driven by my interest in the intersection of cars and robotics, exploring how embedded systems and computer vision can enable autonomous vehicle behavior.
