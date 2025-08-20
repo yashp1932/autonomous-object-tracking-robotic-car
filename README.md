@@ -55,3 +55,36 @@ This project was driven by my interest in the intersection of cars and robotics,
 - **APIs:** Linux Joystick API (`/dev/input/js0`) · GStreamer video capture  
 
 ---
+
+## 📈 **Key Results**  
+- Reduced control latency from ~120 ms → <50 ms  
+- Reliable HSV-based object tracking with ±3 px accuracy  
+- Seamless mode switching between autonomous and manual  
+- Designed + built custom mechanical mounts for motor driver and servo  
+- Demonstrated low-cost embedded CV + control integration on Raspberry Pi  
+
+---
+
+## ⚡ **Challenges & Solutions**  
+
+- **Processing Bottlenecks on Raspberry Pi Zero 2W**  
+  - *Challenge:* Our initial build used a Raspberry Pi Zero 2W, but its limited CPU/GPU caused severe frame drops and input lag (>200 ms).  
+  - *Solution:* Upgraded to a **Raspberry Pi 4**, which enabled stable video capture, OpenCV frame analysis, and joystick handling all within <50 ms.  
+
+- **Camera Latency & Frame Drops**  
+  - *Challenge:* Standard OpenCV capture introduced ~120 ms delay, making the car unresponsive.  
+  - *Solution:* Implemented a **GStreamer pipeline** with leaky-frame queues, dropping old frames to process only the most recent one.  
+
+- **Unstable Object Detection in Varying Light**  
+  - *Challenge:* Bright sunlight or dim indoor lighting caused false positives in object detection.  
+  - *Solution:* Designed an **HSV-based pipeline** with erosion/dilation filtering and contour analysis, improving detection robustness.  
+
+- **Servo & Motor Jitter**  
+  - *Challenge:* Direct PWM commands caused jitter and overcorrection in steering and throttle.  
+  - *Solution:* Added **dynamic PWM scaling** and refined **TB6612FNG motor driver logic**, reducing unnecessary corrections and smoothing movement.  
+
+- **Mechanical Design Issues**  
+  - *Challenge:* Custom 3D-printed chassis and servo mounts introduced alignment problems, especially during sharp turns.  
+  - *Solution:* Iterated on the mechanical design, reinforcing weak points and improving servo linkages, resulting in better stability and reliability.  
+
+---
