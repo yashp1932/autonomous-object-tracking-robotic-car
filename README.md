@@ -9,3 +9,7 @@ A dual-mode robotic car built on an **Raspberry Pi 4** that can autonomously tra
 **Key Features:** Autonomous HSV-based object tracking · manual override via PS4 controller · low-latency camera + control loop · custom mechanical design  
 
 ## 🔍 **Explore** 
+
+📄 Project Overview (coming soon)
+🎥 Educational Demo Video (coming soon)  
+🎥 Fun Demo Video (coming soon)
