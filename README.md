@@ -1,4 +1,4 @@
-# Autonomous Object-Tracking Robotic Car 🚗
+# Autonomous Object-Tracking Robotic Car 🚙
 
 ## ⚙️ **Summary**  
 
