@@ -46,3 +46,12 @@ This project was driven by my interest in the intersection of cars and robotics,
   - Non-blocking joystick reads  
 
 ---
+
+## 🔧 **Tech Stack**  
+
+- **Languages:** C++  
+- **Libraries:** OpenCV 4 · pigpio  
+- **Hardware:** Raspberry Pi 4 · TB6612FNG Motor Driver · Servo + DC Motors · PS4 Controller  
+- **APIs:** Linux Joystick API (`/dev/input/js0`) · GStreamer video capture  
+
+---
