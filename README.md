@@ -88,3 +88,18 @@ This project was driven by my interest in the intersection of cars and robotics,
   - *Solution:* Iterated on the mechanical design, reinforcing weak points and improving servo linkages, resulting in better stability and reliability.  
 
 ---
+## 🚀 **Quickstart**  
+
+```bash
+# Clone repository
+git clone https://github.com/<yourusername>/autonomous-robotic-car.git
+cd autonomous-robotic-car
+
+# Build with CMake
+mkdir build && cd build
+cmake ..
+make
+
+# Run
+sudo ./ball_auto_manual
+
