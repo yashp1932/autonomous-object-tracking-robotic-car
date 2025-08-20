@@ -68,8 +68,8 @@ This project was driven by my interest in the intersection of cars and robotics,
 ## ⚡ **Challenges & Solutions**  
 
 - **Processing Bottlenecks on Raspberry Pi Zero 2W**  
-  - *Challenge:* Our initial build used a Raspberry Pi Zero 2W, but its limited CPU/GPU caused severe frame drops and input lag (>200 ms).  
-  - *Solution:* Upgraded to a **Raspberry Pi 4**, which enabled stable video capture, OpenCV frame analysis, and joystick handling all within <50 ms.  
+  - *Challenge:* Our initial build used a Raspberry Pi Zero 2W, but its limited CPU/GPU caused severe frame drops and input lag.
+  - *Solution:* Upgraded to a **Raspberry Pi 4**, which enabled stable video capture, OpenCV frame analysis, and joystick handling.
 
 - **Camera Latency & Frame Drops**  
   - *Challenge:* Standard OpenCV capture introduced ~120 ms delay, making the car unresponsive.  
