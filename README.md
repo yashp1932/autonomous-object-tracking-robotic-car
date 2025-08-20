@@ -103,3 +103,12 @@ make
 # Run
 sudo ./ball_auto_manual
 
+---
+
+## 🤝 Connect
+
+Interested in embedded vision systems or robotics? Hit me up!
+
+📧 Email: yash.panchal932@gmail.com
+🌐 GitHub: [yashp1932](https://github.com/yashp1932)
+💼 LinkedIn: www.linkedin.com/in/yashpchal
