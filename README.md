@@ -10,6 +10,13 @@ A dual-mode robotic car built on an **Raspberry Pi 4** that can autonomously tra
 
 ---
 
+<p float="left">
+  <img src="final_car.jpg" width="300"/>
+  <img src="car_chassis.jpg" width="300"/>
+</p>
+
+---
+
 ## 🔍 **Explore** 
 
 📄 Project Overview (coming soon)         
