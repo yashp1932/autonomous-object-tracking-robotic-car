@@ -102,7 +102,7 @@ make
 
 # Run
 sudo ./ball_auto_manual
-
+```
 ---
 
 ## 🤝 Connect
