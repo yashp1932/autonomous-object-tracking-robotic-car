@@ -98,7 +98,7 @@ I’ve always been fascinated by cars and robotics, so I built this project to b
 
 ```bash
 # Clone repository
-git clone https://github.com/<yashp1932>/autonomous-object-tracking-robotic-car.git
+git clone https://github.com/yashp1932/autonomous-object-tracking-robotic-car.git
 cd autonomous-object-tracking-robotic-car
 
 # Build with CMake
