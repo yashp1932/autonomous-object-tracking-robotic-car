@@ -18,6 +18,15 @@ A dual-mode robotic car built on an **Raspberry Pi 4** that can autonomously tra
 
 ---
 
+## 📈 **Key Results**  
+- Reduced control latency from ~120 ms → <50 ms  
+- Reliable HSV-based object tracking with ±3 px accuracy  
+- Seamless mode switching between autonomous and manual  
+- Designed + built custom mechanical mounts for motor driver and servo  
+- Demonstrated low-cost embedded CV + control integration on Raspberry Pi  
+
+---
+
 ## 🔍 **Explore** 
 
 📄 Project Overview (coming soon)         
@@ -63,15 +72,6 @@ I’ve always been fascinated by cars and robotics, so I built this project to b
 - **Libraries:** OpenCV 4 · pigpio  
 - **Hardware:** Raspberry Pi 4 · TB6612FNG Motor Driver · Servo + DC Motors · PS4 Controller  
 - **APIs:** Linux Joystick API (`/dev/input/js0`) · GStreamer video capture  
-
----
-
-## 📈 **Key Results**  
-- Reduced control latency from ~120 ms → <50 ms  
-- Reliable HSV-based object tracking with ±3 px accuracy  
-- Seamless mode switching between autonomous and manual  
-- Designed + built custom mechanical mounts for motor driver and servo  
-- Demonstrated low-cost embedded CV + control integration on Raspberry Pi  
 
 ---
 
