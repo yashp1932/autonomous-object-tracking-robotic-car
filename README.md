@@ -77,13 +77,9 @@ I’ve always been fascinated by cars and robotics, so I built this project to b
 
 ## ⚡ **Challenges & Solutions**  
 
-- **Processing Bottlenecks on Raspberry Pi Zero 2W**  
-  - *Challenge:* Our initial build used a Raspberry Pi Zero 2W, but its limited CPU/GPU caused severe frame drops and input lag.
-  - *Solution:* Upgraded to a **Raspberry Pi 4**, which enabled stable video capture, OpenCV frame analysis, and joystick handling.
-
-- **Camera Latency & Frame Drops**  
-  - *Challenge:* Standard OpenCV capture introduced ~120 ms delay, making the car unresponsive.  
-  - *Solution:* Implemented a **GStreamer pipeline** with leaky-frame queues, dropping old frames to process only the most recent one.  
+- **Processing & Latency Issues**  
+  - *Challenge:* Raspberry Pi Zero 2W’s limited CPU/GPU caused severe frame drops and input lag, and standard OpenCV capture added ~120 ms delay.
+  - *Solution:* Upgraded to **Raspberry Pi 4** and implemented a GStreamer pipeline with leaky-frame queues, dropping old frames to process only the most recent, achieving stable, responsive performance.
 
 - **Unstable Object Detection in Varying Light**  
   - *Challenge:* Bright sunlight or dim indoor lighting caused false positives in object detection.  
